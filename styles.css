@@ -1,0 +1,40 @@
+  
+/* Global */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero section */
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Section headings */
+.section-title {
+  margin-bottom: 2rem;
+}
+
+/* =====================
+   GLOBAL
+===================== */
+body {
+  scroll-behavior: smooth;
+}
+
+/* =====================
+   HERO
+===================== */
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+/* =====================
+   SECTIONS
+===================== */
+.section-title {
+  margin-bottom: 2rem;
+}

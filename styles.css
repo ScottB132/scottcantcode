@@ -1,55 +1,173 @@
   
-/* Global */
-body {
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+html {
   scroll-behavior: smooth;
 }
 
-/* Hero section */
-.hero {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-}
-
-/* Section headings */
-.section-title {
-  margin-bottom: 2rem;
-}
-
-/* =====================
-   GLOBAL
-===================== */
 body {
-  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* Prevent navbar overlap */
+  background-color: #f8f9fa;
+  color: #333;
 }
 
-/* =====================
-   HERO
-===================== */
-.hero {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-}
-
-/* =====================
-   SECTIONS
-===================== */
 .section-title {
+  font-weight: 700;
   margin-bottom: 2rem;
+  position: relative;
 }
 
-footer {
-    text-align: center;
+.section-title::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
 }
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero img {
+  border: 5px solid #0d6efd;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   PROJECT CARDS
+========================= */
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+  border-color: #0d6efd;
+}
+
+.btn-primary {
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   BACK TO TOP LINK
+========================= */
 
 .back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  color: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
   text-decoration: none;
+  font-weight: 500;
+  color: #0d6efd;
+  transition: color 0.3s ease;
 }
 
 .back-to-top:hover {
-  text-decoration: underline;
+  color: #0a58ca;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  margin-top: 40px;
+}
+
+footer a {
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd !important;
 }

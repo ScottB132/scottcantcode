@@ -29,7 +29,7 @@ body {
   width: 70px;
   height: 3px;
   margin: 12px auto 0;
-  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  background: linear-gradient(90deg, #051215, #3b82f6);
   border-radius: 5px;
 }
 
@@ -38,18 +38,18 @@ body {
 ========================= */
 
 .navbar {
-  background-color: light grey!important;
+  background-color: light rgb(121, 106, 106)!important;
   backdrop-filter: blur(8px);
 }
 
 .navbar-brand {
   font-weight: 500;
-  color: #000000 !important;
+  color: #ffffff !important;
   letter-spacing: 1px;
 }
 
 .nav-link {
-  color: #000000 !important;
+  color: #ffffff !important;
   font-weight: 500;
   transition: 0.3s ease;
 }
@@ -186,7 +186,7 @@ body {
 ========================= */
 
 footer {
-  background-color: #0b1120 !important;
+  background-color: #1c3b89 !important;
   border-top: 1px solid #1f2937;
 }
 

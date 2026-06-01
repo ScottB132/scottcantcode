@@ -114,6 +114,15 @@ body {
   width: 600px;
 }
 
+.lset_certificate-img {
+  width: 375px;
+  transition: width 0.3s ease;
+}
+
+.lset_certificate-img:hover {
+  width: 600px;
+}
+
 /* =========================
    PROJECT CARDS
 ========================= */

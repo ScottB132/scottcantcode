@@ -104,6 +104,16 @@ body {
   color: #000000;
 }
 
+
+.certificate-img {
+  width: 375px;
+  transition: width 0.3s ease;
+}
+
+.certificate-img:hover {
+  width: 450px;
+}
+
 /* =========================
    PROJECT CARDS
 ========================= */

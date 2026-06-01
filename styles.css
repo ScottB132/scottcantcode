@@ -105,7 +105,9 @@ body {
 }
 
 
-#achievements
+#achievements {
+  background-color: #0f172a;
+}
 
 .certificate-img {
   width: 375px;

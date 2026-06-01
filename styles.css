@@ -106,12 +106,12 @@ body {
 
 
 .certificate-img {
-  width: 500px;
+  width: 375px;
   transition: width 0.3s ease;
 }
 
 .certificate-img:hover {
-  width: 450px;
+  width: 600px;
 }
 
 /* =========================
